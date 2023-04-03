@@ -1,38 +1,70 @@
 body {
-    font-family: sans-serif;
-  }
+  font-family: sans-serif;
+}
 
-  #container {
-    position: relative;
-    left: 15px;
-  }
-  
-  #chat-window {
-    width: 400px;
-    height: 300px;
-    border: 1px solid #ccc;
-    padding: 10px;
-    overflow-y: scroll;
-  }
-  
-  #message-form {
-    margin-top: 10px;
-  }
-  
-  #message-input {
-    width: 300px;
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin-right: 5px;
-  }
-  
-  button {
-    padding: 5px 10px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
+#container {
+  position: relative;
+  left: 15px;
+}
+
+#chat-window {
+  width: 400px;
+  height: 300px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  overflow-y: scroll;
+}
+
+#message-form {
+  margin-top: 10px;
+}
+
+#message-input {
+  width: 300px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#header {
+  margin-bottom: 30px;
+}
+
+#login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+#username-input {
+  width: 200px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#status {
+  display: none;
+  background-color: #e6e6e6;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 30px;
+}
